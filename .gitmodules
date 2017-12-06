@@ -1,0 +1,6 @@
+[submodule "app/jni/SDL"]
+	path = app/jni/SDL
+	url = https://github.com/SDL-mirror/SDL
+[submodule "app/jni/FFmpeg-Android"]
+	path = app/jni/FFmpeg-Android
+	url = https://github.com/tinnnysu/FFmpeg-Android.git
