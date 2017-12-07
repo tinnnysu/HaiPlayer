@@ -4,7 +4,7 @@ android {
     compileSdkVersion 16
     buildToolsVersion "26.0.1"
     defaultConfig {
-        applicationId "org.libsdl.app"
+        applicationId "com.haiplayer.haiplayer"
         minSdkVersion 14
         targetSdkVersion 16
         versionCode 1
@@ -20,6 +20,11 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+           ndk {
+             abiFilters "x86", "armeabi-v7a", "armeabi"
+           }
         }
     }
     sourceSets.main {

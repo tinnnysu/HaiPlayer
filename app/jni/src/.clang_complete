@@ -1,0 +1,4 @@
+-I/home/shitao/Android/android-ndk-r10e/platforms/android-14/arch-arm/usr/include
+-I../SDL/include
+-I../FFmpeg-Android/output/armeabi-v7a/include
+
